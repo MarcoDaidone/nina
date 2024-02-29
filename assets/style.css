@@ -348,7 +348,7 @@ input[type='submit'] {
      #contact {
           padding-inline: 2em;
           padding-block: 2em;
-          height: 828px;
+          min-height: 828px;
      }
      form {
           width: 100%;
@@ -356,4 +356,29 @@ input[type='submit'] {
      .picture {
           width: 80%;
      }
+}
+
+div#about-me {
+     min-height: 464px;
+}
+
+main {
+     min-height: 3355px;
+}
+
+nav {
+     min-height: 51px;
+}
+
+h1.name {
+     min-height: 32px;
+}
+#header {
+     min-height: 185.06px;
+}
+#gallery {
+     min-height: 953.93px;
+}
+#services {
+     min-height: 1130.19px;
 }
